@@ -2,8 +2,6 @@
 header("Content-Type:application");
 require "data.php";
 echo "<br>";
-echo '<html>Products:chilli, rub & clove<form>Enter Product Name: <input type="text" name="name"> <input type="submit"> </form></html>';
-
 
 
 if(!empty($_GET['name']))
